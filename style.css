@@ -36,3 +36,19 @@
     text-align: end;
     padding-right: 40px;
 }
+
+/* media queries*/
+
+@media screen and (max-width: 615px){
+    .titulo{
+        font-size: 44px;
+    }
+
+    .sevicos {
+        font-size: 22px;
+    }
+
+    .botao{
+        width: 250px;
+    }
+}
