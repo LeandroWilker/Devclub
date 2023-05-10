@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFF0E1;
+}
+
+.cabecalho{
+    text-align: center;
+    width: 100vw;
+    
+}
+
+.banner {
+    width: 100vw;
+    margin-bottom: 40px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    position:relative;
+}
+
+.lista-servicos{
+    padding: 60px 100px;
+}
+
+.sevicos {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.contato{
+    text-align: end;
+    padding-right: 40px;
+}
