@@ -11,10 +11,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="cabecalho">
-        <img class="banner" src="Discos do Zeca.png" alt="banner">
-    </header>
-    <main>
+    <div class="container-prncipal">
+        <header class="cabecalho">
+            <img class="banner" src="Discos do Zeca.png" alt="banner">
+        </header>
+        
         <div class="container">
             <h1 class="titulo">Nossos Serviços</h1>
             <ul class="lista-servicos">
@@ -31,13 +32,30 @@
                 <li class="sevicos">Dia da noiva</li>
             </ul>
         </div>
-    </main>
-    <footer>
-        <div class="contato">
-            <a href="https://devzapp.com.br/#/dev-zap-grupos/623101e3c259400001c1cb92" target="_blank">
-                <img class="botao" src="whatsapp 5.png" alt="botão contato">
-            </a>
-        </div>
-    </footer>
+
+        <footer>
+            <div class="contato">
+                <a href="https://devzapp.com.br/#/dev-zap-grupos/623101e3c259400001c1cb92" target="_blank">
+                    <img class="botao" src="whatsapp 5.png" alt="botão contato">
+                </a>
+        
+                <button type="button" onclick="abrir()"> Envie sua dúvida</button>
+            </div>
+        </footer>
+    </div>
+
+    
+    <form class="form-email" action="https://formsubmit.co/leandrowilker93@gmail.com" method="POST">
+        <input placeholder="Seu Nome" type="text" name="name" required>
+        <input placeholder="Seu Email" type="email" name="email" required>
+        <textarea placeholder="Sua dúvida aqui" name="text" id="text" cols="30" rows="10"></textarea>
+        <button type="submit">Enviar</button>
+        <button onclick="volta()" type="button" class="voltar">Voltar</button>
+    </form>
+    
+    
+    
+    
 </body>
+<script src="script.js"></script>
 </html>
