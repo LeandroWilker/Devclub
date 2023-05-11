@@ -95,6 +95,7 @@ button{
 
 .voltar{
     background: gray;
+    width: 174px;
 }
 
 button:hover {
@@ -127,7 +128,10 @@ button:hover {
     }
 
     .contato{
-        text-align: center;
+
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
     }
 
     .botao{
