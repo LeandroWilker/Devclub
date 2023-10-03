@@ -43,7 +43,7 @@
     padding-right: 40px;
 }
 
-input {
+#input-nome, #input-email {
     display: block;
     background: #F9F9F9;
     border: 1px solid #E6E6E6;
@@ -52,6 +52,8 @@ input {
     width: 352px;
     margin-bottom: 20px;
     padding: 0 10px;
+    font-size: 10pt;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.057);
 }
 
 img,a{
@@ -67,6 +69,8 @@ textarea {
     width: 352px;
     margin-bottom: 20px;
     padding: 10px 10px;
+    font-size: 10pt;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.057);
 }
 
 form {
@@ -79,14 +83,15 @@ form {
     border-radius: 10px;
     opacity: 0;
     transition: 1s;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.095);
 }
 
 button{
-    background: #40BB15;
+    background:#5A301A;
     border-radius: 5px;
     border: none;
     padding: 10px;
-    width: 174px;
+    width: 184px;
     height: 52px;
     font-weight: bold;
     cursor: pointer;
@@ -94,8 +99,7 @@ button{
 }
 
 .voltar{
-    background: gray;
-    width: 174px;
+    background: #d7af8f;
 }
 
 button:hover {
@@ -118,7 +122,7 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 486px){
+@media screen and (max-width: 489px){
     .titulo{
         font-size: 34px;
     }
@@ -131,10 +135,19 @@ button:hover {
 
         justify-content: center;
         align-items: center;
-        padding: 0 10px;
+        flex-direction: column;
+        padding:0px;
+    }
+
+    .contato img{
+        margin: 0;
     }
 
     .botao{
         width: 200px;
+    }
+
+    button{
+        
     }
 }
